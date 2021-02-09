@@ -1,0 +1,27 @@
+$not-playing: #0B3D5B;
+$playing: #8C2905;
+
+.soundKey{
+    width: 75px;
+    height:75px;
+    background-color:$not-playing;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:3%;
+    box-shadow: 1px 0px 5px 7px rgba(0,0,0,0.8);
+    -webkit-transition: box-shadow 0.2s;
+    flex-shrink:1;
+}
+.soundKey p{
+    color:white;
+    font-size:28pt;
+    font-weight:bold;
+    user-select:none;
+}
+
+.soundKey-true{
+    background-color:$playing;
+    box-shadow: 1px 0px 5px 7px rgba(0,0,0,0.3);
+    -webkit-transition: box-shadow 0.2s;
+}

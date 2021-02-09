@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import SoundKey from './SoundKey';
+import DrumMachine from './DrumMachine';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DrumMachine/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

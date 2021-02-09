@@ -9,6 +9,11 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "react-sound": "^1.2.0",
+    "react-switch": "^6.0.0",
+    "sass": "^1.32.6",
+    "soundmanager2": "^2.97.20170602",
+    "use-sound": "^2.0.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
